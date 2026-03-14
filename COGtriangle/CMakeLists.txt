@@ -29,6 +29,7 @@ FetchContent_MakeAvailable(Catch2)
 
 # Create triangle library
 add_library(triangles STATIC cogmaker.cpp)
+set_property(TARGET triangles PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_include_directories(triangles PUBLIC .)
 # Link spdlog
 target_link_libraries(triangles PRIVATE spdlog::spdlog)
