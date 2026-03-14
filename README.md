@@ -169,13 +169,13 @@ Available Formats
 
 #### Filtering size
 
-The `--filter-size` argument filters the output based on the number of organisms in a cluster. It can be set to any integer. The most relevant are:
+The `--filter_size` argument filters the output based on the number of organisms in a cluster. It can be set to any integer. The most relevant are:
 
-- `--filter-size 1`: No filtering is performed (default).
-- `--filter-size 2`: Singletons (proteins without a cluster) are removed.
-- `--filter-size 3`: Only triangle based clusters remain.
+- `--filter_size 1`: No filtering is performed (default).
+- `--filter_size 2`: Singletons (proteins without a cluster) are removed.
+- `--filter_size 3`: Only triangle based clusters remain.
 
-For massive datasets, where only triangle based clusters are needed, the processing time can be reduced by disabling the creation of Singletons and TWOGs at compiler level. If this optimisation is enabled, the program should still be called with `--filter-size 3` to ensure correct results for the `single COG mode` and `multi` output.
+For massive datasets, where only triangle based clusters are needed, the processing time can be reduced by disabling the creation of Singletons and TWOGs at compiler level. If this optimisation is enabled, the program should still be called with `--filter_size 3` to ensure correct results for the `single COG mode` and `multi` output.
 
 To recompile, use this command at the root directory:
 
@@ -232,7 +232,7 @@ python triCOG.py run -i fasta_folder/ -u unfiltered_blast/ -f filtered_blast/ -o
 Keep only clusters with at least 3 different organisms in output.
 
 ```bash
-python triCOG.py run -i fasta_folder/ -u unfiltered_blast/ -f filtered_blast/ -o COGoutput/ --filter-size 3
+python triCOG.py run -i fasta_folder/ -u unfiltered_blast/ -f filtered_blast/ -o COGoutput/ --filter_size 3
 ```
 
 ### Legacy output
