@@ -1,0 +1,17 @@
+prot_name,protein,organism
+Fake_prot_1,1,mock_fasta_1
+Fake_prot_2,2,mock_fasta_1
+Fake_prot_3,3,mock_fasta_1
+Fake_prot_4,4,mock_fasta_1
+Fake_prot_5,5,mock_fasta_1
+Fake_prot_6,6,mock_fasta_1
+MOCKORG_0001,7,mock_fasta_2
+MOCKORG_0002,8,mock_fasta_2
+MOCKORG_0003,9,mock_fasta_2
+MOCKORG_0004,10,mock_fasta_2
+MOCKORG_0005,11,mock_fasta_2
+MOCKORG_0006,12,mock_fasta_2
+MOCKORG_0007,13,mock_fasta_2
+MOCKORG_0008,14,mock_fasta_2
+MOCKORG_0009,15,mock_fasta_2
+MOCKORG_0010,16,mock_fasta_2

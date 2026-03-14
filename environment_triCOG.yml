@@ -1,0 +1,21 @@
+name: triCOG_env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Python
+  - python=3.13.0
+  - pip
+
+  # Python packages
+  - numpy=2.4.0
+  - pandas=2.3.3
+  - pybind11=3.0.1
+  
+  # C++ processing
+  - cmake>=3.20
+  - compilers  # conda-forge compiler package
+  - spdlog=1.16.0 # C++ logger
+  
+  # Testing
+  - pytest>=8.0

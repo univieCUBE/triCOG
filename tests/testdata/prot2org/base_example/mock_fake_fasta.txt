@@ -1,0 +1,6 @@
+>Fake_prot_7 [Org 1]
+ABCD
+>Fake_prot_8 [Org 1]
+EFGH
+>Fake_prot_9 [Org 2]
+IJKL

@@ -1,0 +1,35 @@
+This file contains a list of RefSeq accession numbers for all proteomes used in the test datasets (see tests/testdata/*/fasta).
+
+tests/testdata/ThreeByThree/fasta:
+GCF_000008725.1 (Chlamydia trachomatis)
+GCF_000005845.2 (Escherichia coli)
+GCF_001457635.1 (Streptococcus pneumoniae)
+
+tests/testdata/herpes/fasta:
+GCF_000859985.2 (Human alphaherpesvirus 1)
+GCF_000846365.1 (Human betaherpesvirus 6B)
+GCF_000900815.1 (Cyprinid herpesvirus 2)
+GCF_000846065.1 (Ostreid herpesvirus 1)
+GCF_000886195.1 (Anguillid herpesvirus 1)
+GCF_000869245.1 (Ranid herpesvirus 2)
+GCF_000900375.1 (Abalone herpesvirus Victoria/AUS/2009)
+GCF_001443905.1 (Elephant endotheliotropic herpesvirus 4)
+GCF_000843985.2 (Equid gammaherpesvirus 2)
+GCF_000918475.1 (Chimpanzee herpesvirus strain 105640)
+GCF_027938535.1 (Equid herpesvirus 6)
+GCF_000839325.1 (Ictalurid herpesvirus 1)
+GCF_000838825.1 (Alcelaphine gammaherpesvirus 1)
+GCF_004787155.1 (Retroperitoneal fibromatosis-associated herpesvirus)
+GCF_000872045.1 (Human herpesvirus 4 type 2)
+
+tests/testdata/TenPhages/fasta:
+ GCF_000844825.1    (Escherichia phage T7)
+ GCF_000845205.1    (Inovirus M13)
+ GCF_000930555.1    (Escherichia phage fd)
+ GCF_000929915.1    (Enterobacteria phage f1)
+ GCF_000836945.1    (Escherichia phage T4)
+ GCF_002601325.1    (Bacillus phage PBS1)
+ GCF_011756515.1    (Phage NBSal005)
+ GCF_002602565.1    (Pectobacterium phage PhiM1)
+ GCF_000843145.1    (Salmonella phage SP6)
+ GCF_000836905.1    (Bacteriophage P2)
